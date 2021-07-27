@@ -1,0 +1,12 @@
+name: Hello
+description: Greet someone
+
+inputs:
+  name: # id of input
+    description: Who to greet
+    required: true
+    default: "World"
+
+runs:
+  using: "docker"
+  image: "Dockerfile"

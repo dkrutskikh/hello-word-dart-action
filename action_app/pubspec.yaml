@@ -1,0 +1,10 @@
+name: action_app
+version: 1.0.0
+description: Simple Github action app
+publish_to: none
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  github_actions_toolkit: ^0.0.5
