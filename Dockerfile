@@ -6,4 +6,5 @@ COPY action_app/ /action_app/
 
 RUN cd /action_app \
     && pub get \
-    && dart run /action_app/bin/main.dart
+
+ENTRYPOINT [ "dart", "/action_app/bin/main.dart" ]
